@@ -2,9 +2,9 @@
   "name": "mern-blog-backend",
   "version": "1.0.0",
   "description": "Mern blog app backend code",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/SumitJadiya/mern-blog-backend/issues"
   },
-  "homepage": "https://github.com/SumitJadiya/mern-blog-backend#readme"
+  "homepage": "https://github.com/SumitJadiya/mern-blog-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.20",
+    "nodemon": "^2.0.7"
+  }
 }
